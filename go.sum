@@ -8,8 +8,6 @@ github.com/sevlyar/go-daemon v0.1.6 h1:EUh1MDjEM4BI109Jign0EaknA2izkOyi0LV3ro3QQ
 github.com/sevlyar/go-daemon v0.1.6/go.mod h1:6dJpPatBT9eUwM5VCw9Bt6CdX9Tk6UWvhW3MebLDRKE=
 github.com/ziutek/rrd v0.0.3 h1:tGu7Dy0Z2Ij0qF7/7+fqWBZlM0j2Kp/RoTEG3+zHXjQ=
 github.com/ziutek/rrd v0.0.3/go.mod h1:PAFbtWhFYrVeILz+2a6OKKdLYk8RlPJotQXlj7O0Z0A=
-github.com/ziutek/rrd v0.0.4 h1:/5geVHps7GtdlJzaC8WLh1u6mP/Z/Z8rcHyAhzSA4e0=
-github.com/ziutek/rrd v0.0.4/go.mod h1:PAFbtWhFYrVeILz+2a6OKKdLYk8RlPJotQXlj7O0Z0A=
 golang.org/x/net v0.41.0 h1:vBTly1HeNPEn3wtREYfy4GZ/NECgw2Cnl+nK6Nz3uvw=
 golang.org/x/net v0.41.0/go.mod h1:B/K4NNqkfmg07DQYrbwvSluqCJOOXwUjeb/5lOisjbA=
 golang.org/x/sync v0.15.0 h1:KWH3jNZsfyT6xfAfKiz6MRNmd46ByHDYaZ7KSkCtdW8=

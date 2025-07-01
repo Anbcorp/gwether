@@ -19,11 +19,12 @@ import (
 )
 
 type Event struct {
-	Time         MqttTime `json:"time"`
-	Model        string   `json:"model"`
-	ID           int      `json:"id"`
-	Channel      int      `json:"channel"`
-	TemperatureC float64  `json:"temperature_C"`
+	Time  MqttTime `json:"time"`
+	Model string   `json:"model"`
+	// TODO: id maybe an hex string
+	ID           int     `json:"id"`
+	Channel      int     `json:"channel"`
+	TemperatureC float64 `json:"temperature_C"`
 }
 
 var (
@@ -100,10 +101,6 @@ func run(broker, rrdDir, username, password string) {
 		if err := json.Unmarshal(msg.Payload(), &event); err != nil {
 			log.Printf("Error parsing JSON: %v", err)
 			return
-		}
-
-		if debug {
-			log.Printf("Decoded message as :s", event)
 		}
 
 		model := sanitize(event.Model)
